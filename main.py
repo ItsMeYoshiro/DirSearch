@@ -10,7 +10,7 @@ def enum(url):
 
 def dirfounds (dir_found, dir_protected):
     if dir_found or dir_protected:
-        print("\nDiretórios encontrados no Scan: ")
+        print("\nDiretórios encontrados no Scan:")
         for dir in dir_found:
             print(dir)
         for dirproc in dir_protected:
